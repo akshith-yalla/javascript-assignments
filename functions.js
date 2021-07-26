@@ -16,7 +16,7 @@ myfunc(myInterests,['badminton','cricket'])
 // Write this function.Submit the github link to the code
 
 var initials = (firstName, lastName) => {
-    return console.log(firstName[0]+lastName[0]);
+    return firstName[0]+lastName[0];
 };
 
-initials('Akshith', 'Yalla')
+console.log(initials('Akshith', 'Yalla'))
